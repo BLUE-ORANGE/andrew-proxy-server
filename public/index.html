@@ -2,20 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>etsy</title>
   </head>
   <body>
-    <div id="product-summary" class="productSummary"></div>
-    <!-- <div id="countdown"></div>
-    <div id="related"></div>
-    <div id="reviews"></div> -->
+    <div class="parentContainer">
+      <div id="carousel" class="productC"></div>
+      <div id="product-summary" class="productSumm"></div>
+    </div>
+    <div class="botContainer">
+    <div id="reviews"></div>
+    </div>
     <script src="/lib/react.development.js" type="text/javascript"></script>
     <script src="/lib/react-dom.development.js" type="text/javascript"></script>
-    <!-- <script src="http://localhost:3001/app.js"></script>
-    <script src="http://localhost:3002/app.js"></script> -->
-    <script src="http://localhost:3003/public/bundle.js" type="text/javascript"></script>
-    <!-- <script src="http://localhost:3004/app.js"></script> -->
+    <script src="http://localhost:3002/public/bundle.js" type="text/javascript"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script src="http://localhost:3004/public/bundle.js"></script>
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
     <script>
       // ReactDOM.render(

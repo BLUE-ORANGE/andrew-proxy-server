@@ -1,4 +1,19 @@
-.productSummary {
+.parentContainer {
+    margin-top: 100px;
+    width: 1500px;
+}
+
+.productC {
+    display:inline-block;
+    margin-left: 500px;
+}
+
+.productSumm {
     display: inline-block;
     float: right;
+}
+
+.botContainer {
+ padding-top: 20px;
+ padding-left: 500px;
 }
